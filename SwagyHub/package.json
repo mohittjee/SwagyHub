@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "SwagyHub",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "yarn install && cd client && yarn install && yarn build",
+    "start": "nodemon server.js"
+  },
+  "author": "Divyamala Tiwari",
+  "engines": {
+    "node": "^16.13.2"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.0.4",
+    "uuid": "^8.3.2"
+  }
+}
